@@ -2,5 +2,5 @@
 
 ```yaml
 steps:
-- uses: tlambert/setup-qt-libs@v1
+- uses: tlambert03/setup-qt-libs@v1
 ```
