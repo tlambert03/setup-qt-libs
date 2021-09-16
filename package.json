@@ -11,6 +11,8 @@
     "package": "ncc build --source-map --license licenses.txt",
     "test": "jest",
     "release": "ncc build src/main.ts && git add -f dist/"
+    "lint": "eslint src/**/*.ts",
+    "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
   },
   "repository": {
     "type": "git",
