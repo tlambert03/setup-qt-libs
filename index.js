@@ -1,7 +1,9 @@
-import * as core from '@actions/core'
-import * as exec from '@actions/exec'
+const core = require('@actions/core');
+const exec = require('@actions/exec');
 
-async function run(): Promise<void> {
+
+// most @actions toolkit packages have async methods
+async function run() {
   try {
     // Qt installer assumes basic requirements that are not installed by
     // default on Ubuntu.
@@ -16,4 +18,4 @@ async function run(): Promise<void> {
   }
 }
 
-run()
+run();

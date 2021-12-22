@@ -1,45 +1,25 @@
 {
   "name": "setup-qt-libs",
   "version": "1.0.0",
-  "private": true,
-  "description": "setup libraries required for qt if running on linux",
-  "main": "lib/main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "format": "prettier --write **/*.ts",
-    "format-check": "prettier --check **/*.ts",
-    "package": "ncc build --source-map --license licenses.txt",
-    "test": "jest",
-    "release": "ncc build src/main.ts && git add -f dist/",
-    "lint": "eslint src/**/*.ts",
-    "all": "npm run build && npm run format && npm run lint && npm run package && npm test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlambert03/setup-qt-libs.git"
   },
-  "keywords": [
-    "actions",
-    "qt",
-    "setup"
-  ],
-  "author": "Talley Lambert",
-  "license": "MIT",
-  "dependencies": {
-    "@actions/core": "^1.4.0",
-    "@actions/exec": "^1.0.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlambert03/setup-qt-libs/issues"
   },
-  "devDependencies": {
-    "@types/node": "^16.10.2",
-    "@typescript-eslint/parser": "^4.28.3",
-    "@vercel/ncc": "^0.29.0",
-    "eslint": "^7.31.0",
-    "eslint-plugin-github": "^4.1.1",
-    "eslint-plugin-jest": "^25.2.4",
-    "jest": "^27.0.6",
-    "js-yaml": "^4.1.0",
-    "prettier": "2.4.1",
-    "ts-jest": "^27.0.5",
-    "typescript": "^4.1.3"
+  "homepage": "https://github.com/tlambert03/setup-qt-libs#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^5.0.0"
   }
 }
