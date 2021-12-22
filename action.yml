@@ -3,4 +3,4 @@ description: 'setup libraries required for qt if running on linux'
 author: 'Talley Lambert'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
