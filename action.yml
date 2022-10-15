@@ -2,5 +2,5 @@ name: 'setup-qt-libs'
 description: 'setup libraries required for qt if running on linux'
 author: 'Talley Lambert'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
