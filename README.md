@@ -17,3 +17,4 @@ Currently, this will run something like:
 >      libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0 x11-utils
 > ```
 
+(see https://github.com/tlambert03/setup-qt-libs/blob/main/index.js for current code)
