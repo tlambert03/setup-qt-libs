@@ -7,7 +7,7 @@ steps:
 
 
 This is a simple action to install libraries necessary to run a Qt desktop environment on
-`ubuntu-latest` runners (and do nothing on macos and windows runners).
+`linux` runners (and do nothing on macos and windows runners).
 
 Currently, this will run something like:
 
