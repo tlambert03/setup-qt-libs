@@ -5,7 +5,6 @@ steps:
 - uses: tlambert03/setup-qt-libs@v1
 ```
 
-
 This is a simple action to install libraries necessary to run a Qt desktop environment on
 `linux` runners (and do nothing on macos and windows runners).
 
@@ -18,7 +17,7 @@ Currently, this will run something like:
 >      x11-utils libxcb-cursor0 libopengl0 libegl1-mesa
 > ```
 
-(see https://github.com/tlambert03/setup-qt-libs/blob/main/index.js for current code)
+(see <https://github.com/tlambert03/setup-qt-libs/blob/main/index.js> for current code)
 
 **See also**:  
 [pyvista/setup-headless-display-action](https://github.com/pyvista/setup-headless-display-action),
@@ -26,7 +25,7 @@ which additionally prepares both windows and linux for offscreen opengl tests,
 and, when used with the [qt option]([pyvista/setup-headless-display-action](https://github.com/pyvista/setup-headless-display-action#options)),
 can replace this action
 
-### to release new version
+### to release new version (for maintainers)
 
 1. `npm install`
 2. `npm run prepare`
