@@ -27877,11 +27877,11 @@ const exec = __nccwpck_require__(1514);
 async function run() {
   try {
     // Qt installer assumes basic requirements that are not installed by
-    // default on Ubuntu. 20.04 and newer only.
+    // default on Ubuntu.
     if (process.platform === 'linux') {
       await exec.exec('sudo apt-get update')
       await exec.exec(
-        'sudo apt-get install -y libegl1 libdbus-1-3 libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0 x11-utils libxcb-cursor0 libopengl0'
+        'sudo apt-get install -y libegl1 libdbus-1-3 libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0 x11-utils libxcb-cursor0 libopengl0 libegl1-mesa'
       )
     }
   } catch (error) {
