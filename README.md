@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> Instead of this action, you should use [pyvista/setup-headless-display-action](https://github.com/pyvista/setup-headless-display-action),
+> which additionally prepares both windows and linux for offscreen opengl tests,
+> and, when used with the [qt option]([pyvista/setup-headless-display-action](https://github.com/pyvista/setup-headless-display-action#options)),
+> can replace this action.  This action receives no more attention.
+
 # setup qt libraries for github CI
 
 ```yaml
@@ -19,11 +25,6 @@ Currently, this will run something like:
 
 (see <https://github.com/tlambert03/setup-qt-libs/blob/main/index.js> for current code)
 
-**See also**:  
-[pyvista/setup-headless-display-action](https://github.com/pyvista/setup-headless-display-action),
-which additionally prepares both windows and linux for offscreen opengl tests,
-and, when used with the [qt option]([pyvista/setup-headless-display-action](https://github.com/pyvista/setup-headless-display-action#options)),
-can replace this action
 
 ### to release new version (for maintainers)
 
